@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">AutoSize-Fragment</string>
+  <string name="title_no_adapt">无适配</string>
+  <string name="title_adapted">已适配</string>
+</resources>

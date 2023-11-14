@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/mobile_navigation"
+  app:startDestination="@+id/navigation_no_adapt">
+
+  <fragment
+    android:id="@+id/navigation_no_adapt"
+    android:name="me.nicotoast.autosize.example.NoAdaptFragment"
+    android:label="@string/title_no_adapt"
+    tools:layout="@layout/fragment_auto_size" />
+
+  <fragment
+    android:id="@+id/navigation_adapted"
+    android:name="me.nicotoast.autosize.example.AdaptedFragment"
+    android:label="@string/title_adapted"
+    tools:layout="@layout/fragment_auto_size" />
+</navigation>
